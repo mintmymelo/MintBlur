@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224B66A61E801F00002A5DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224B66A51E801F00002A5DFF /* AppDelegate.swift */; };
+		224B66A81E801F00002A5DFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224B66A71E801F00002A5DFF /* ViewController.swift */; };
+		224B66AB1E801F00002A5DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224B66A91E801F00002A5DFF /* Main.storyboard */; };
+		224B66AD1E801F00002A5DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224B66AC1E801F00002A5DFF /* Assets.xcassets */; };
+		224B66B01E801F00002A5DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224B66AE1E801F00002A5DFF /* LaunchScreen.storyboard */; };
+		224B66BB1E801F00002A5DFF /* MintProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224B66BA1E801F00002A5DFF /* MintProjectTests.swift */; };
+		224B66C61E801F00002A5DFF /* MintProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224B66C51E801F00002A5DFF /* MintProjectUITests.swift */; };
+		224B66D71E803804002A5DFF /* UIImageEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224B66D61E803804002A5DFF /* UIImageEffects.swift */; };
+		224B66DA1E803977002A5DFF /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224B66D91E803977002A5DFF /* UIApplication+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		224B66B71E801F00002A5DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 224B669A1E801EFF002A5DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224B66A11E801F00002A5DFF;
+			remoteInfo = MintProject;
+		};
+		224B66C21E801F00002A5DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 224B669A1E801EFF002A5DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224B66A11E801F00002A5DFF;
+			remoteInfo = MintProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		224B66A21E801F00002A5DFF /* MintProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MintProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		224B66A51E801F00002A5DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		224B66A71E801F00002A5DFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		224B66AA1E801F00002A5DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		224B66AC1E801F00002A5DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		224B66AF1E801F00002A5DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		224B66B11E801F00002A5DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224B66B61E801F00002A5DFF /* MintProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		224B66BA1E801F00002A5DFF /* MintProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintProjectTests.swift; sourceTree = "<group>"; };
+		224B66BC1E801F00002A5DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224B66C11E801F00002A5DFF /* MintProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		224B66C51E801F00002A5DFF /* MintProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintProjectUITests.swift; sourceTree = "<group>"; };
+		224B66C71E801F00002A5DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224B66D61E803804002A5DFF /* UIImageEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageEffects.swift; sourceTree = "<group>"; };
+		224B66D91E803977002A5DFF /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		224B669F1E801F00002A5DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224B66B31E801F00002A5DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224B66BE1E801F00002A5DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224B66991E801EFF002A5DFF = {
+			isa = PBXGroup;
+			children = (
+				224B66A41E801F00002A5DFF /* MintProject */,
+				224B66B91E801F00002A5DFF /* MintProjectTests */,
+				224B66C41E801F00002A5DFF /* MintProjectUITests */,
+				224B66A31E801F00002A5DFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		224B66A31E801F00002A5DFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				224B66A21E801F00002A5DFF /* MintProject.app */,
+				224B66B61E801F00002A5DFF /* MintProjectTests.xctest */,
+				224B66C11E801F00002A5DFF /* MintProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		224B66A41E801F00002A5DFF /* MintProject */ = {
+			isa = PBXGroup;
+			children = (
+				224B66D81E803955002A5DFF /* Extensions */,
+				224B66D41E80379F002A5DFF /* Library */,
+				224B66A51E801F00002A5DFF /* AppDelegate.swift */,
+				224B66A71E801F00002A5DFF /* ViewController.swift */,
+				224B66A91E801F00002A5DFF /* Main.storyboard */,
+				224B66AC1E801F00002A5DFF /* Assets.xcassets */,
+				224B66AE1E801F00002A5DFF /* LaunchScreen.storyboard */,
+				224B66B11E801F00002A5DFF /* Info.plist */,
+			);
+			path = MintProject;
+			sourceTree = "<group>";
+		};
+		224B66B91E801F00002A5DFF /* MintProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				224B66BA1E801F00002A5DFF /* MintProjectTests.swift */,
+				224B66BC1E801F00002A5DFF /* Info.plist */,
+			);
+			path = MintProjectTests;
+			sourceTree = "<group>";
+		};
+		224B66C41E801F00002A5DFF /* MintProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				224B66C51E801F00002A5DFF /* MintProjectUITests.swift */,
+				224B66C71E801F00002A5DFF /* Info.plist */,
+			);
+			path = MintProjectUITests;
+			sourceTree = "<group>";
+		};
+		224B66D41E80379F002A5DFF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				224B66D51E8037F3002A5DFF /* UIImageEffects */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		224B66D51E8037F3002A5DFF /* UIImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				224B66D61E803804002A5DFF /* UIImageEffects.swift */,
+			);
+			path = UIImageEffects;
+			sourceTree = "<group>";
+		};
+		224B66D81E803955002A5DFF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				224B66D91E803977002A5DFF /* UIApplication+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		224B66A11E801F00002A5DFF /* MintProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224B66CA1E801F00002A5DFF /* Build configuration list for PBXNativeTarget "MintProject" */;
+			buildPhases = (
+				224B669E1E801F00002A5DFF /* Sources */,
+				224B669F1E801F00002A5DFF /* Frameworks */,
+				224B66A01E801F00002A5DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MintProject;
+			productName = MintProject;
+			productReference = 224B66A21E801F00002A5DFF /* MintProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		224B66B51E801F00002A5DFF /* MintProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224B66CD1E801F00002A5DFF /* Build configuration list for PBXNativeTarget "MintProjectTests" */;
+			buildPhases = (
+				224B66B21E801F00002A5DFF /* Sources */,
+				224B66B31E801F00002A5DFF /* Frameworks */,
+				224B66B41E801F00002A5DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				224B66B81E801F00002A5DFF /* PBXTargetDependency */,
+			);
+			name = MintProjectTests;
+			productName = MintProjectTests;
+			productReference = 224B66B61E801F00002A5DFF /* MintProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		224B66C01E801F00002A5DFF /* MintProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224B66D01E801F00002A5DFF /* Build configuration list for PBXNativeTarget "MintProjectUITests" */;
+			buildPhases = (
+				224B66BD1E801F00002A5DFF /* Sources */,
+				224B66BE1E801F00002A5DFF /* Frameworks */,
+				224B66BF1E801F00002A5DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				224B66C31E801F00002A5DFF /* PBXTargetDependency */,
+			);
+			name = MintProjectUITests;
+			productName = MintProjectUITests;
+			productReference = 224B66C11E801F00002A5DFF /* MintProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		224B669A1E801EFF002A5DFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Penpitcha Natisupalak";
+				TargetAttributes = {
+					224B66A11E801F00002A5DFF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EC4K522XBF;
+						ProvisioningStyle = Automatic;
+					};
+					224B66B51E801F00002A5DFF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EC4K522XBF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 224B66A11E801F00002A5DFF;
+					};
+					224B66C01E801F00002A5DFF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EC4K522XBF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 224B66A11E801F00002A5DFF;
+					};
+				};
+			};
+			buildConfigurationList = 224B669D1E801EFF002A5DFF /* Build configuration list for PBXProject "MintProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 224B66991E801EFF002A5DFF;
+			productRefGroup = 224B66A31E801F00002A5DFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				224B66A11E801F00002A5DFF /* MintProject */,
+				224B66B51E801F00002A5DFF /* MintProjectTests */,
+				224B66C01E801F00002A5DFF /* MintProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		224B66A01E801F00002A5DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224B66B01E801F00002A5DFF /* LaunchScreen.storyboard in Resources */,
+				224B66AD1E801F00002A5DFF /* Assets.xcassets in Resources */,
+				224B66AB1E801F00002A5DFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224B66B41E801F00002A5DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224B66BF1E801F00002A5DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224B669E1E801F00002A5DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224B66A81E801F00002A5DFF /* ViewController.swift in Sources */,
+				224B66A61E801F00002A5DFF /* AppDelegate.swift in Sources */,
+				224B66DA1E803977002A5DFF /* UIApplication+Extensions.swift in Sources */,
+				224B66D71E803804002A5DFF /* UIImageEffects.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224B66B21E801F00002A5DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224B66BB1E801F00002A5DFF /* MintProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224B66BD1E801F00002A5DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224B66C61E801F00002A5DFF /* MintProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		224B66B81E801F00002A5DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 224B66A11E801F00002A5DFF /* MintProject */;
+			targetProxy = 224B66B71E801F00002A5DFF /* PBXContainerItemProxy */;
+		};
+		224B66C31E801F00002A5DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 224B66A11E801F00002A5DFF /* MintProject */;
+			targetProxy = 224B66C21E801F00002A5DFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		224B66A91E801F00002A5DFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224B66AA1E801F00002A5DFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		224B66AE1E801F00002A5DFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224B66AF1E801F00002A5DFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		224B66C81E801F00002A5DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		224B66C91E801F00002A5DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		224B66CB1E801F00002A5DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EC4K522XBF;
+				INFOPLIST_FILE = MintProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penpitchan.MintProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		224B66CC1E801F00002A5DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EC4K522XBF;
+				INFOPLIST_FILE = MintProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penpitchan.MintProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		224B66CE1E801F00002A5DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EC4K522XBF;
+				INFOPLIST_FILE = MintProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penpitchan.MintProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MintProject.app/MintProject";
+			};
+			name = Debug;
+		};
+		224B66CF1E801F00002A5DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EC4K522XBF;
+				INFOPLIST_FILE = MintProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penpitchan.MintProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MintProject.app/MintProject";
+			};
+			name = Release;
+		};
+		224B66D11E801F00002A5DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EC4K522XBF;
+				INFOPLIST_FILE = MintProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penpitchan.MintProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MintProject;
+			};
+			name = Debug;
+		};
+		224B66D21E801F00002A5DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EC4K522XBF;
+				INFOPLIST_FILE = MintProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penpitchan.MintProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MintProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		224B669D1E801EFF002A5DFF /* Build configuration list for PBXProject "MintProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224B66C81E801F00002A5DFF /* Debug */,
+				224B66C91E801F00002A5DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224B66CA1E801F00002A5DFF /* Build configuration list for PBXNativeTarget "MintProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224B66CB1E801F00002A5DFF /* Debug */,
+				224B66CC1E801F00002A5DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		224B66CD1E801F00002A5DFF /* Build configuration list for PBXNativeTarget "MintProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224B66CE1E801F00002A5DFF /* Debug */,
+				224B66CF1E801F00002A5DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		224B66D01E801F00002A5DFF /* Build configuration list for PBXNativeTarget "MintProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224B66D11E801F00002A5DFF /* Debug */,
+				224B66D21E801F00002A5DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 224B669A1E801EFF002A5DFF /* Project object */;
+}
